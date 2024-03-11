@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterDropdown should have the selected option 1`] = `
+<div>
+  <div
+    aria-expanded="false"
+    class="ui fluid selection dropdown"
+    role="listbox"
+    tabindex="0"
+  >
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      class="divider text"
+      role="alert"
+    >
+      Bar
+    </div>
+    <i
+      aria-hidden="true"
+      class="dropdown icon"
+    />
+    <div
+      class="menu transition"
+    >
+      <div
+        aria-checked="false"
+        aria-selected="false"
+        class="item"
+        role="option"
+        style="pointer-events: all;"
+      >
+        <span
+          class="text"
+        >
+          Foo
+        </span>
+      </div>
+      <div
+        aria-checked="true"
+        aria-selected="true"
+        class="active selected item"
+        role="option"
+        style="pointer-events: all;"
+      >
+        <span
+          class="text"
+        >
+          Bar
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FilterDropdown should render correctly 1`] = `
+<div>
+  <div
+    aria-expanded="false"
+    class="ui fluid selection dropdown"
+    role="listbox"
+    tabindex="0"
+  >
+    <i
+      aria-hidden="true"
+      class="dropdown icon"
+    />
+    <div
+      class="menu transition"
+    >
+      <div
+        aria-checked="false"
+        aria-selected="true"
+        class="selected item"
+        role="option"
+        style="pointer-events: all;"
+      >
+        <span
+          class="text"
+        >
+          Foo
+        </span>
+      </div>
+      <div
+        aria-checked="false"
+        aria-selected="false"
+        class="item"
+        role="option"
+        style="pointer-events: all;"
+      >
+        <span
+          class="text"
+        >
+          Bar
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FilterDropdown should render with placeholder 1`] = `
+<div>
+  <div
+    aria-expanded="false"
+    class="ui fluid selection dropdown"
+    role="listbox"
+    tabindex="0"
+  >
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      class="divider default text"
+      role="alert"
+    >
+      Select an option
+    </div>
+    <i
+      aria-hidden="true"
+      class="dropdown icon"
+    />
+    <div
+      class="menu transition"
+    >
+      <div
+        aria-checked="false"
+        aria-selected="true"
+        class="selected item"
+        role="option"
+        style="pointer-events: all;"
+      >
+        <span
+          class="text"
+        >
+          Foo
+        </span>
+      </div>
+      <div
+        aria-checked="false"
+        aria-selected="false"
+        class="item"
+        role="option"
+        style="pointer-events: all;"
+      >
+        <span
+          class="text"
+        >
+          Bar
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

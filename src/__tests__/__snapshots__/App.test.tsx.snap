@@ -1,0 +1,467 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should display the value filter when the property and operator are set 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="filters"
+    >
+      <div
+        class="filters-item"
+      >
+        <div
+          aria-expanded="false"
+          class="ui fluid selection dropdown"
+          data-testid="propertyFilter"
+          role="listbox"
+          tabindex="0"
+        >
+          <div
+            aria-atomic="true"
+            aria-live="polite"
+            class="divider text"
+            role="alert"
+          >
+            Name
+          </div>
+          <i
+            aria-hidden="true"
+            class="dropdown icon"
+          />
+          <div
+            class="menu transition"
+          >
+            <div
+              aria-checked="true"
+              aria-selected="true"
+              class="active selected item"
+              role="option"
+              style="pointer-events: all;"
+            >
+              <span
+                class="text"
+              >
+                Name
+              </span>
+            </div>
+            <div
+              aria-checked="false"
+              aria-selected="false"
+              class="item"
+              role="option"
+              style="pointer-events: all;"
+            >
+              <span
+                class="text"
+              >
+                Weight
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="filters-item"
+      >
+        <div
+          aria-disabled="false"
+          aria-expanded="true"
+          class="ui active visible fluid selection dropdown"
+          data-testid="operatorFilter"
+          role="listbox"
+          tabindex="0"
+        >
+          <div
+            aria-atomic="true"
+            aria-live="polite"
+            class="divider text"
+            role="alert"
+          >
+            Equals
+          </div>
+          <i
+            aria-hidden="true"
+            class="dropdown icon"
+          />
+          <div
+            class="visible menu transition"
+          >
+            <div
+              aria-checked="true"
+              aria-selected="true"
+              class="active selected item"
+              role="option"
+              style="pointer-events: all;"
+            >
+              <span
+                class="text"
+              >
+                Equals
+              </span>
+            </div>
+            <div
+              aria-checked="false"
+              aria-selected="false"
+              class="item"
+              role="option"
+              style="pointer-events: all;"
+            >
+              <span
+                class="text"
+              >
+                Contains
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="filters-item dynamic-width"
+      >
+        <div
+          class="ui fluid input"
+          data-testid="valueFilter"
+        >
+          <input
+            placeholder="Value(s)"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="item dynamic-width"
+      >
+        <button
+          class="ui button clearButton"
+          data-testid="clearButton"
+        >
+          Clear
+        </button>
+      </div>
+    </div>
+    <table
+      class="ui celled striped table"
+    >
+      <thead
+        class=""
+      >
+        <tr
+          class=""
+        >
+          <th
+            class=""
+          >
+            Name
+          </th>
+          <th
+            class=""
+          >
+            Weight
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class=""
+      />
+    </table>
+  </div>
+</div>
+`;
+
+exports[`App should render a list of products correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="filters"
+    >
+      <div
+        class="filters-item"
+      >
+        <div
+          aria-expanded="false"
+          class="ui fluid selection dropdown"
+          data-testid="propertyFilter"
+          role="listbox"
+          tabindex="0"
+        >
+          <div
+            aria-atomic="true"
+            aria-live="polite"
+            class="divider default text"
+            role="alert"
+          >
+            Property
+          </div>
+          <i
+            aria-hidden="true"
+            class="dropdown icon"
+          />
+          <div
+            class="menu transition"
+          >
+            <div
+              aria-checked="false"
+              aria-selected="true"
+              class="selected item"
+              role="option"
+              style="pointer-events: all;"
+            >
+              <span
+                class="text"
+              >
+                Name
+              </span>
+            </div>
+            <div
+              aria-checked="false"
+              aria-selected="false"
+              class="item"
+              role="option"
+              style="pointer-events: all;"
+            >
+              <span
+                class="text"
+              >
+                Weight
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="filters-item"
+      >
+        <div
+          aria-disabled="true"
+          aria-expanded="false"
+          class="ui disabled fluid selection dropdown"
+          data-testid="operatorFilter"
+          role="listbox"
+          tabindex="-1"
+        >
+          <div
+            aria-atomic="true"
+            aria-live="polite"
+            class="divider default text"
+            role="alert"
+          >
+            Operator
+          </div>
+          <i
+            aria-hidden="true"
+            class="dropdown icon"
+          />
+          <div
+            class="menu transition"
+          />
+        </div>
+      </div>
+      <div
+        class="filters-item dynamic-width"
+      />
+      <div
+        class="item dynamic-width"
+      >
+        <button
+          class="ui button clearButton"
+          data-testid="clearButton"
+        >
+          Clear
+        </button>
+      </div>
+    </div>
+    <table
+      class="ui celled striped table"
+    >
+      <thead
+        class=""
+      >
+        <tr
+          class=""
+        >
+          <th
+            class=""
+          >
+            Name
+          </th>
+          <th
+            class=""
+          >
+            Weight
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class=""
+      >
+        <tr
+          class=""
+        >
+          <td
+            class=""
+          >
+            Keyboard
+          </td>
+          <td
+            class=""
+          >
+            5
+          </td>
+        </tr>
+        <tr
+          class=""
+        >
+          <td
+            class=""
+          >
+            Cup
+          </td>
+          <td
+            class=""
+          >
+            3
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`App should render correcty when no products are available 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="filters"
+    >
+      <div
+        class="filters-item"
+      >
+        <div
+          aria-expanded="false"
+          class="ui fluid selection dropdown"
+          data-testid="propertyFilter"
+          role="listbox"
+          tabindex="0"
+        >
+          <div
+            aria-atomic="true"
+            aria-live="polite"
+            class="divider default text"
+            role="alert"
+          >
+            Property
+          </div>
+          <i
+            aria-hidden="true"
+            class="dropdown icon"
+          />
+          <div
+            class="menu transition"
+          >
+            <div
+              aria-checked="false"
+              aria-selected="true"
+              class="selected item"
+              role="option"
+              style="pointer-events: all;"
+            >
+              <span
+                class="text"
+              >
+                Name
+              </span>
+            </div>
+            <div
+              aria-checked="false"
+              aria-selected="false"
+              class="item"
+              role="option"
+              style="pointer-events: all;"
+            >
+              <span
+                class="text"
+              >
+                Weight
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="filters-item"
+      >
+        <div
+          aria-disabled="true"
+          aria-expanded="false"
+          class="ui disabled fluid selection dropdown"
+          data-testid="operatorFilter"
+          role="listbox"
+          tabindex="-1"
+        >
+          <div
+            aria-atomic="true"
+            aria-live="polite"
+            class="divider default text"
+            role="alert"
+          >
+            Operator
+          </div>
+          <i
+            aria-hidden="true"
+            class="dropdown icon"
+          />
+          <div
+            class="menu transition"
+          />
+        </div>
+      </div>
+      <div
+        class="filters-item dynamic-width"
+      />
+      <div
+        class="item dynamic-width"
+      >
+        <button
+          class="ui button clearButton"
+          data-testid="clearButton"
+        >
+          Clear
+        </button>
+      </div>
+    </div>
+    <table
+      class="ui celled striped table"
+    >
+      <thead
+        class=""
+      >
+        <tr
+          class=""
+        >
+          <th
+            class=""
+          >
+            Name
+          </th>
+          <th
+            class=""
+          >
+            Weight
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class=""
+      />
+    </table>
+  </div>
+</div>
+`;

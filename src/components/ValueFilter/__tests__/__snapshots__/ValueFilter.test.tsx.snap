@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ValueFilter should allow mutiple selection on Dropdown when property type is enumerated and the operator is in 1`] = `
+<div>
+  <div
+    aria-expanded="false"
+    aria-multiselectable="true"
+    class="ui fluid multiple selection dropdown"
+    role="listbox"
+    tabindex="0"
+  >
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      class="divider default text"
+      role="alert"
+    >
+      Value(s)
+    </div>
+    <i
+      aria-hidden="true"
+      class="dropdown icon"
+    />
+    <div
+      class="menu transition"
+    >
+      <div
+        aria-checked="false"
+        aria-selected="true"
+        class="selected item"
+        role="option"
+        style="pointer-events: all;"
+      >
+        <span
+          class="text"
+        >
+          foo
+        </span>
+      </div>
+      <div
+        aria-checked="false"
+        aria-selected="false"
+        class="item"
+        role="option"
+        style="pointer-events: all;"
+      >
+        <span
+          class="text"
+        >
+          bar
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ValueFilter should not render options when property type is enumerated doesn't have values 1`] = `
+<div>
+  <div
+    aria-expanded="false"
+    aria-multiselectable="true"
+    class="ui fluid multiple selection dropdown"
+    role="listbox"
+    tabindex="0"
+  >
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      class="divider default text"
+      role="alert"
+    >
+      Value(s)
+    </div>
+    <i
+      aria-hidden="true"
+      class="dropdown icon"
+    />
+    <div
+      class="menu transition"
+    />
+  </div>
+</div>
+`;
+
+exports[`ValueFilter should render a Dropdown when property type is enumerated 1`] = `
+<div>
+  <div
+    aria-expanded="false"
+    aria-multiselectable="false"
+    class="ui fluid selection dropdown"
+    role="listbox"
+    tabindex="0"
+  >
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      class="divider default text"
+      role="alert"
+    >
+      Value(s)
+    </div>
+    <i
+      aria-hidden="true"
+      class="dropdown icon"
+    />
+    <div
+      class="menu transition"
+    >
+      <div
+        aria-checked="false"
+        aria-selected="true"
+        class="selected item"
+        role="option"
+        style="pointer-events: all;"
+      >
+        <span
+          class="text"
+        >
+          foo
+        </span>
+      </div>
+      <div
+        aria-checked="false"
+        aria-selected="false"
+        class="item"
+        role="option"
+        style="pointer-events: all;"
+      >
+        <span
+          class="text"
+        >
+          bar
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ValueFilter should render an Input when property type is string 1`] = `
+<div>
+  <div
+    class="ui fluid input"
+  >
+    <input
+      placeholder="Value(s)"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
