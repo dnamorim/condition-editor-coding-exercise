@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/condition-editor-coding-exercise/static/css/main.a7dbb42c.css",
-    "main.js": "/condition-editor-coding-exercise/static/js/main.6b97b572.js",
+    "main.css": "/condition-editor-coding-exercise/static/css/main.c214cbe0.css",
+    "main.js": "/condition-editor-coding-exercise/static/js/main.97a18df1.js",
     "static/js/453.dc88628e.chunk.js": "/condition-editor-coding-exercise/static/js/453.dc88628e.chunk.js",
     "static/media/brand-icons.svg": "/condition-editor-coding-exercise/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/condition-editor-coding-exercise/static/media/icons.62d9dae4e0040e81c980.svg",
@@ -20,12 +20,12 @@
     "static/media/outline-icons.woff": "/condition-editor-coding-exercise/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/condition-editor-coding-exercise/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/condition-editor-coding-exercise/index.html",
-    "main.a7dbb42c.css.map": "/condition-editor-coding-exercise/static/css/main.a7dbb42c.css.map",
-    "main.6b97b572.js.map": "/condition-editor-coding-exercise/static/js/main.6b97b572.js.map",
+    "main.c214cbe0.css.map": "/condition-editor-coding-exercise/static/css/main.c214cbe0.css.map",
+    "main.97a18df1.js.map": "/condition-editor-coding-exercise/static/js/main.97a18df1.js.map",
     "453.dc88628e.chunk.js.map": "/condition-editor-coding-exercise/static/js/453.dc88628e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7dbb42c.css",
-    "static/js/main.6b97b572.js"
+    "static/css/main.c214cbe0.css",
+    "static/js/main.97a18df1.js"
   ]
 }
